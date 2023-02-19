@@ -57,7 +57,6 @@ const BubbleBags = () => {
   const [slide, setSlide] = useState(0);
   const [slideItems, setSlideItems] = useState([]);
 
-  console.log(arr);
   const prevSlide = () => {
     if (slide) {
       setSlide(slide - 1);
@@ -71,7 +70,6 @@ const BubbleBags = () => {
   };
 
   useEffect(() => {
-    console.log(slide);
     let index = slide;
     let newArray = arr;
     // console.log("CURRENT SLIDES =>", categories?.slice(slide, 3))
