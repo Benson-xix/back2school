@@ -5,7 +5,7 @@ const Banner = () => {
     <Box py={{ base: 10, sm: 16, md: 20 }}>
     <HStack> 
       <Box 
-            backgroundImage="url('../public/images/Rectangle956.png')"
+            backgroundImage="url('../src/assets/images/Rectangle956.png')"
             backgroundPosition="center"
             backgroundRepeat="no-repeat"  w={"1500px"} h={"340px"} position={"absolute"} top={"150px"} left={"150px"} mt={"2em"} rounded={"20px"}>
             <Stack spacing={6} position={"absolute"} top={"90px"} left={"161px"}>
